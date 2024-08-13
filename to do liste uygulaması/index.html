@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-app">
+        <h1>Yapılacaklar Listesi</h1>
+        <form id="todoForm">
+            <input type="text" id="todoInput" placeholder="Yeni görev ekle..." autocomplete="off" required>
+            <button type="submit">Ekle</button>
+        </form>
+        <ul id="todoList">
+            <!-- Görevler burada görünecek -->
+        </ul>
+        <button id="clearCompleted">Tamamlananları Temizle</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
